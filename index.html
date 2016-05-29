@@ -17,7 +17,7 @@ h1{
 }
 #header{
 text-align: center;
-height:80px;
+height:60px;
 padding: 10px 0 10px 0;
 border-bottom: 2px solid #ccc;
 }
@@ -26,17 +26,24 @@ border-bottom: 2px solid #ccc;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  height:auto;
 /*background-color: blue;*/
 
 }
 #footer{
-  height: 50px;
+height: 40px;
 font-size: 12px;
 color: #ccc;
 text-align: center;
 border-top: 2px solid #ccc;
 padding: 10px 0 0 0;
+bottom: 0;
+
+}
+html{
+  min-height: 100%;
+}
+body{
+  margin-bottom: 40px;
 }
 .bxslider{
 
@@ -52,7 +59,7 @@ padding: 10px 0 0 0;
 <script type="text/javascript">
         $(document).ready(function(){
             $('.bxslider').bxSlider({
-                auto: true,
+                //auto: true,
 
             });
         });
@@ -66,7 +73,7 @@ padding: 10px 0 0 0;
 
 <div id="main">
   <ul class="bxslider">
-    <li><iframe width="560" height="315" src="https://www.youtube.com/embed/yI2oS2hoL0k" frameborder="0" allowfullscreen></iframe></li>
+    <li><iframe width="590" height="380" src="https://www.youtube.com/embed/yI2oS2hoL0k" frameborder="0" allowfullscreen></iframe></li>
     <li><img title="アプローチ" alt="" src="images/bxslider/AP02.jpg" width="590" height="380" /></li>
     <li><img title="アプローチ" alt="" src="images/bxslider/AP01.jpg" width="590" height="380" /></li>
     <li><img title="ホール" alt="" src="images/bxslider/Hall.jpg" width="590" height="380" /></li>
